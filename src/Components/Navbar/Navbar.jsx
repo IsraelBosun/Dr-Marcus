@@ -30,7 +30,7 @@ const Navbar = () => {
                     className={`${active ? "py-2 transition-all duration-300" : "py-4"} container mx-auto flex items-center justify-between px-2`}
                 >
                     <Link to="">
-                        <div className='text-xl text-Blue uppercase tracking-wide font-bold'>DR Marcus</div>
+                        <div className='text-xl text-Blue uppercase tracking-wide '>DR Marcus</div>
                     </Link>
                     <div className='flex items-center'>
                     <div className='sm:flex items-center hidden'>
@@ -39,7 +39,7 @@ const Navbar = () => {
                         })}
                     </div>
                     <div className='flex items-center gap-4'>
-                        <button className='relative py-3 px-6 font-bold text-Blue text-3xl'>
+                        <button className='relative py-3 px-6 text-Blue text-3xl'>
                             <AiOutlineShoppingCart
                                 onClick={() => setShowCart(true)}
                             />
