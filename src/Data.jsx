@@ -1,4 +1,4 @@
-import Doctor from "../../Doctor-Marcus/src/assets/About.jpeg"
+import doctor from "./assets/About.jpeg"
 
 export const navLinks = [
     {
@@ -32,19 +32,19 @@ export const navLinks = [
 export const Xervices = [
   {
     id: 1,
-    image: Doctor,
+    image: doctor,
     title: "Medical Doctor",
     text: "Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore.",
   },
   {
     id: 2,
-    image: Doctor,
+    image: doctor,
     title: "Author",
     text: "Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore.",
   },
   {
     id: 3,
-    image: Doctor,
+    image: doctor,
     title: "Dancer",
     text: "Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore.",
   }
