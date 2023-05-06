@@ -1,4 +1,4 @@
-
+import Doctor from "../../Doctor-Marcus/src/assets/About.jpeg"
 
 export const navLinks = [
     {
@@ -27,3 +27,25 @@ export const navLinks = [
       link: "Contact",
     },
   ];
+
+
+export const Xervices = [
+  {
+    id: 1,
+    image: Doctor,
+    title: "Medical Doctor",
+    text: "Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore.",
+  },
+  {
+    id: 2,
+    image: Doctor,
+    title: "Author",
+    text: "Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore.",
+  },
+  {
+    id: 3,
+    image: Doctor,
+    title: "Dancer",
+    text: "Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore.",
+  }
+]

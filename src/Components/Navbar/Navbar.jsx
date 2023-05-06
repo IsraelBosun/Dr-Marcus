@@ -23,7 +23,7 @@ const Navbar = () => {
 
     return (
         <div
-            className={`${active ? "shadow-lg" : ""} sticky w-full top-0 left-0 z-20`}
+            className={`${active ? "shadow-lg bg-white" : ""} sticky w-full top-0 left-0 z-20`}
         >
             <div>
                 <div

@@ -15,4 +15,8 @@
   .animate-slide:hover {
     animation-play-state:paused
   }
+  .shadow {
+    @apply rounded-br-2xl rounded-tl-2xl
+  }
 }
+
