@@ -1,4 +1,5 @@
 import doctor from "./assets/About.jpeg"
+import image from "./assets/blog.png"
 
 export const navLinks = [
     {
@@ -62,7 +63,7 @@ export const data = [
     id: 2,
     avatar: doctor,
     review: "I highly recommend the Economics classes as they have helped me overcome the challenges I faced in Economics. ",
-    name: "Ogunwewimo Timileyin",
+    name: "Wewimo Timi",
     school: "Olabisi Onabanjo University"
   },
   {
@@ -86,4 +87,21 @@ export const data = [
     name: "Ganiyu Dasola.",
     school: "University of Ibadan"
   },
+]
+
+export const blogging = [
+  {
+    id: 1,
+    image:image,
+    title:"How to become you",
+    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, ducimus!',
+    button: "CONTINUE READING..."
+  },
+  {
+    id: 2,
+    image:image,
+    title:"How to become you",
+    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, ducimus!',
+    button: "CONTINUE READING..."
+  }
 ]
