@@ -9,7 +9,7 @@ const Services = () => {
                 <p className='text-xs'>WHAT I DO</p>
                 <p className='text-2xl font-bold'>My Services</p>
             </div>
-            <div className='mt-2 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4'>
+            <div className=' mt-2 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4'>
             {Xervices.map(serving => {
                return <ServiceContainer key={serving.id} {...serving} />
             })}

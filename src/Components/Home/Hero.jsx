@@ -14,7 +14,7 @@ const Hero = () => {
                     <p className='text-sm leading-7 text-black max-w-sm py-2'>
                     Dr. Smith provides expert care to help you achieve optimal health. With years of experience and a compassionate approach, Dr. Smith is committed to providing personalized care that meets your unique needs.
                     </p>
-                    <button className='py-2 px-6 text-white  shadow bg-Blue mb-3' >Let's Talk
+                    <button className='py-2 px-6 text-white  shadowing bg-Blue mb-3' >Let's Talk
                     </button>
                 </div>
                 <div className='  flex items-center justify-center flex-1 md-w-[60%] h-100 overflow-hidden '>

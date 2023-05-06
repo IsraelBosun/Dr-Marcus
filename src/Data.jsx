@@ -49,3 +49,41 @@ export const Xervices = [
     text: "Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore.",
   }
 ]
+
+export const data = [
+  {
+    id: 1,
+    avatar: doctor,
+    review: "I've been taking online Economics tutorials for two years to catch up on my studies. I find the lessons enjoyable and accommodating, ",
+    name: "Favour",
+    school: "University Of Ibadan"
+  },
+  {
+    id: 2,
+    avatar: doctor,
+    review: "I highly recommend the Economics classes as they have helped me overcome the challenges I faced in Economics. ",
+    name: "Ogunwewimo Timileyin",
+    school: "Olabisi Onabanjo University"
+  },
+  {
+    id: 3,
+    avatar: doctor,
+    review: "MOG ECONOMICS has been a great blessing to me since day one. The program's standard exams, brainstorming, assignments",
+    name: "Raji Opeyemi",
+    school: "University Of Ibadan"
+  },
+  {
+    id: 4,
+    avatar: doctor,
+    review: "MOG Economics has really helped me a lot especially in the mathematical aspect of Economics. ",
+    name: "Aliu Funmilayo",
+    school: "University of Ibadan"
+  },
+  {
+    id: 5,
+    avatar: doctor,
+    review: "My name is Ganiyu Dasola. A student of University of Ibadan.I just want to say Thank you to MOG class.",
+    name: "Ganiyu Dasola.",
+    school: "University of Ibadan"
+  },
+]

@@ -9,14 +9,23 @@
     @apply w-full
   }
 
-  .section {
-    @apply container mx-auto py-24 px-6 
+  .shadowing {
+    @apply rounded-br-2xl rounded-tl-2xl
   }
   .animate-slide:hover {
     animation-play-state:paused
   }
   .shadow {
-    @apply rounded-br-2xl rounded-tl-2xl
+    @apply rounded-br-[2rem] rounded-tl-[2rem]
+  }
+  .section {
+    @apply container mx-auto py-10 px-6
+  }
+  .swiping {
+    @apply flex flex-col gap-3 items-center justify-center text-xs  text-white bg-red-700 p-5 
   }
 }
 
+
+
+/*  */

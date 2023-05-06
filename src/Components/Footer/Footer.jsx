@@ -4,7 +4,7 @@ import { BsFacebook, BsInstagram, BsTwitter, BsPinterest } from "react-icons/bs"
 
 const Footer = () => {
     return (
-        <div className=' w-full p-5 border bg-Blue text-white grid justify-between items- grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-9 '>
+        <div className='sm:text-md text-sm w-full p-5 border bg-Blue text-white grid justify-between items- grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-9 '>
             <div className='flex flex-col gap-3'>
                 <div>
                     <img src="" alt="Logo" />
@@ -13,7 +13,7 @@ const Footer = () => {
             </div>
 
             <div className='flex flex-col gap-3'>
-                <p className='font-bold text-xl'>
+                <p className='font-bold text-lg'>
                     Quick Links
                 </p>
                 <div className='list-none flex flex-col gap-3 '>
@@ -26,7 +26,7 @@ const Footer = () => {
             </div>
 
             <div className='flex flex-col gap-3' >
-                <p className='font-bold text-xl'>
+                <p className='font-bold text-lg'>
                     Company
                 </p>
                 <div className='list-none flex flex-col gap-3 '>
@@ -39,7 +39,7 @@ const Footer = () => {
             </div>
 
             <div className='flex flex-col gap-3' >
-                <p className='font-bold text-xl'>
+                <p className='font-bold text-lg'>
                     Follow Me
                 </p>
                 <div className='flex items-center gap-5 '>
