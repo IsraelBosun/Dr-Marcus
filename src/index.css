@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;500&family=Montserrat:wght@400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -22,7 +23,10 @@
     @apply container mx-auto py-10 px-6
   }
   .swiping {
-    @apply flex flex-col gap-3 items-center justify-center text-xs  text-white bg-red-700 p-5 
+    @apply flex flex-col gap-3 items-center justify-center text-xs  text-white bg-blue-700 p-5 
+  }
+  button {
+    @apply hover:text-Blue hover:border  hover:bg-transparent
   }
 }
 

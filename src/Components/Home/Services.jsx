@@ -4,7 +4,7 @@ import { Xervices } from '../../Data'
 
 const Services = () => {
     return (
-        <div className='section'>
+        <div className='section text-gray shadow '>
             <div>
                 <p className='text-xs'>WHAT I DO</p>
                 <p className='text-2xl font-bold'>My Services</p>

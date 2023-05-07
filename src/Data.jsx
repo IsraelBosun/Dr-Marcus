@@ -1,5 +1,9 @@
 import doctor from "./assets/About.jpeg"
 import image from "./assets/blog.png"
+import author from "./assets/author1.png"
+import suitcase from "./assets/suitcase1.png"
+import stheto from "./assets/stheto1.png"
+
 
 export const navLinks = [
     {
@@ -33,21 +37,21 @@ export const navLinks = [
 export const Xervices = [
   {
     id: 1,
-    image: doctor,
+    image: stheto,
     title: "Medical Doctor",
-    text: "Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore.",
+    text: "I provide exceptional medical care and have extensive experience in treating diverse medical conditions.",
   },
   {
     id: 2,
-    image: doctor,
+    image: author,
     title: "Author",
-    text: "Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore.",
+    text: "I have authored numerous bestselling books on entrepreneurship that have transformed many lives.",
   },
   {
     id: 3,
-    image: doctor,
-    title: "Dancer",
-    text: "Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore.",
+    image: suitcase,
+    title: "Entrepreneur",
+    text: "I have founded and managed multiple successful businesses, creating wealth and job opportunities.",
   }
 ]
 
@@ -55,37 +59,37 @@ export const data = [
   {
     id: 1,
     avatar: doctor,
-    review: "I've been taking online Economics tutorials for two years to catch up on my studies. I find the lessons enjoyable and accommodating, ",
-    name: "Favour",
-    school: "University Of Ibadan"
+    review: "Dr. Oluwole's webinar on hypertension provided practical tips for managing the condition. Highly recommend!",
+    name: "Favour Ori",
+    school: "Business Man"
   },
   {
     id: 2,
     avatar: doctor,
-    review: "I highly recommend the Economics classes as they have helped me overcome the challenges I faced in Economics. ",
+    review: "Dr. Oluwole's book on managing hypertension is an insightful guide for patients to live a healthy life",
     name: "Wewimo Timi",
-    school: "Olabisi Onabanjo University"
+    school: "Banker"
   },
   {
     id: 3,
     avatar: doctor,
-    review: "MOG ECONOMICS has been a great blessing to me since day one. The program's standard exams, brainstorming, assignments",
+    review: "As a hypertensive patient, Dr. Oluwole's care has been instrumental in my journey to better health.",
     name: "Raji Opeyemi",
-    school: "University Of Ibadan"
+    school: "University Professor"
   },
   {
     id: 4,
     avatar: doctor,
-    review: "MOG Economics has really helped me a lot especially in the mathematical aspect of Economics. ",
+    review: "Dr. Oluwole's hypertension clinic provides exceptional care and support for patients. Highly recommended!",
     name: "Aliu Funmilayo",
-    school: "University of Ibadan"
+    school: "Politician"
   },
   {
     id: 5,
     avatar: doctor,
-    review: "My name is Ganiyu Dasola. A student of University of Ibadan.I just want to say Thank you to MOG class.",
+    review: "Dr. Oluwole's webinar on hypertension provided practical tips for managing the condition. Highly recommend!",
     name: "Ganiyu Dasola.",
-    school: "University of Ibadan"
+    school: "House Wife"
   },
 ]
 
@@ -93,15 +97,15 @@ export const blogging = [
   {
     id: 1,
     image:image,
-    title:"How to become you",
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, ducimus!',
+    title:"Do this to prevent hypertension",
+    text: 'Hypertension has been called the silent killer at the darkest of times',
     button: "CONTINUE READING..."
   },
   {
     id: 2,
     image:image,
-    title:"How to become you",
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, ducimus!',
+    title:"How to raise money for your business",
+    text: 'Raising money is one of the most difficult part of entrepreneurship, but I have the key',
     button: "CONTINUE READING..."
   }
 ]

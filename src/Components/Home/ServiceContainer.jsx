@@ -2,8 +2,8 @@ import React from 'react'
 
 const ServiceContainer = ({ image, title, text}) => {
   return (
-    <div className='border border-Blue shadow   hover:bg-Blue hover:text-white transition px-4 py-4 flex gap-3'>
-        <div className='w-1/3 mt-2'>
+    <div className=' shadow  shadow-xl  hover:bg-Blue hover:text-white transition px-4 py-4 flex gap-3'>
+        <div className='w-[70%] mt-2'>
             <img src={image} alt="" className='' />
         </div>
         <div>
@@ -15,3 +15,5 @@ const ServiceContainer = ({ image, title, text}) => {
 }
 
 export default ServiceContainer
+
+// border border-Blue

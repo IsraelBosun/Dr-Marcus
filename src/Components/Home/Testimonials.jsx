@@ -14,7 +14,7 @@ const Testimonials = () => {
 
   useEffect(() => {
     const handleResize = () => {
-      setIsSmallScreen(window.innerWidth < 500);
+      setIsSmallScreen(window.innerWidth < 2500);
     };
 
     handleResize(); // call once on mount
@@ -27,7 +27,7 @@ const Testimonials = () => {
 
   return (
     <>
-      <div>
+      <div className="section">
         <div className="flex flex-col items-center mb-4 ">
         <div className="text-gray text-sm">TESTIMONIALS</div>
         <div className="text-lg ">What My Clients Say</div>
@@ -38,17 +38,17 @@ const Testimonials = () => {
               effect={"cards"}
               grabCursor={true}
               modules={[EffectCards]}
-              className="section mySwiper w-[240px] h-[320px]"
+              className=" mySwiper w-[240px] h-[320px]"
             >
               {
                 data.map(({ avatar, name, review, school, id }) => {
                   return (
                     <SwiperSlide className="shadow swiping" key={id}>
                       <div className="w-1/2 ">
-                        <img src={avatar} alt="" className="shadow" />
+                        <img src={avatar} alt="" className="shadowing" />
                       </div>
                       <div className="text-center">{review}</div>
-                      <div className="flex flex-col">
+                      <div className="flex flex-col text-center">
                         <p>{name}</p>
                         <p className="text-[9px]">{school}</p>
                       </div>
@@ -64,7 +64,7 @@ const Testimonials = () => {
             spaceBetween = {40}
             slidesPerView = {1}
             pagination = {{ clickable: true }}
-            className='section testimonials__container'>
+            className=' testimonials__container'>
            {
               data.map(({ avatar, name, review, school, id }) => {
                 return(

@@ -5,7 +5,7 @@ import Footer from "./Components/Footer/Footer"
 
 const App = () => {
   return (
-    <div className='font-Poppins bg-Solitude'>
+    <div className='font-Manrope bg-Solitude text-gray'>
       <BrowserRouter>
         <Navbar />
         <Routes>

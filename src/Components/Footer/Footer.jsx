@@ -9,7 +9,7 @@ const Footer = () => {
                 <div>
                     <img src="" alt="Logo" />
                 </div>
-                <p className=''>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi libero iusto doloremque ?</p>
+                <p className=''>Dr. Olwole: committed to improving health outcomes through compassion and innovation.</p>
             </div>
 
             <div className='flex flex-col gap-3'>
@@ -43,10 +43,10 @@ const Footer = () => {
                     Follow Me
                 </p>
                 <div className='flex items-center gap-5 '>
-                    <a href="" className='hover:scale-110 hover:text-Blue text-xl'><BsFacebook /></a>
-                    <a href="" className='hover:scale-110 hover:text-Blue text-xl'><BsInstagram /></a>
-                    <a href="" className='hover:scale-110 hover:text-Blue text-xl'><BsTwitter /></a>
-                    <a href ="" className='hover:scale-110 hover:text-Blue text-xl'><BsPinterest /></a>
+                    <a href="" className='hover:scale-110 transition text-2xl'><BsFacebook /></a>
+                    <a href="" className='hover:scale-110 transition text-2xl'><BsInstagram /></a>
+                    <a href="" className='hover:scale-110 transition text-2xl'><BsTwitter /></a>
+                    <a href ="" className='hover:scale-110 transition text-2xl'><BsPinterest /></a>
                 </div>
             </div>
         </div>
